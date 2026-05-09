@@ -1,0 +1,50 @@
+{
+    "scan_time": "2026-05-09 03:34:41",
+    "target": "192.168.100.1",
+    "hosts": [
+        {
+            "ip": "192.168.100.1",
+            "state": "up",
+            "protocols": {
+                "tcp": [
+                    {
+                        "port": 21,
+                        "state": "filtered",
+                        "service": "ftp",
+                        "version": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "filtered",
+                        "service": "ssh",
+                        "version": ""
+                    },
+                    {
+                        "port": 23,
+                        "state": "filtered",
+                        "service": "telnet",
+                        "version": ""
+                    },
+                    {
+                        "port": 53,
+                        "state": "open",
+                        "service": "domain",
+                        "version": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "open",
+                        "service": "http",
+                        "version": ""
+                    },
+                    {
+                        "port": 8022,
+                        "state": "filtered",
+                        "service": "oa-system",
+                        "version": ""
+                    }
+                ]
+            }
+        }
+    ]
+}
